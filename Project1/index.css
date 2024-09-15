@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    /* width: 100%; */
+    /* height: 20%; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.navbarelement{
+    display: flex;
+    
+}
+.nav li{
+    padding: 20px 100px 20px 0px;;
+    list-style: none;
+}
+.nav_logo{
+    margin-left: 40px;
+}
+a{
+    text-decoration-line: none;
+    color: white;
+    display: inline-block; 
+}
+
+.contentOne{
+    display: flex;  
+    height: 90vh;
+    width: 100vw;
+    
+}
+.left{
+
+    width: 55%;
+    background-color: rgb(2, 74, 74);
+    color: white;
+    display: flex;
+    /* padding: 0px 20px; */
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.left h1{
+    font-size: 3.5rem;
+    padding-bottom : 20px;
+}
+.left p{
+    font-size: 1.5rem;
+}
+.right{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0% 20px; */
+    background-color: aqua;
+}
+.img1 img{
+
+    width: 35vw;
+}
+.my-button {
+    background-color: #6d9bcd; /* Primary button color */
+    border: none; /* Removes default border */
+    color: white; /* Text color */
+    padding: 10px 30px; /* Padding around the text */
+    text-align: center; /* Centers text inside the button */
+    text-decoration: none; /* Removes underline from text */
+    display: inline-block; /* Allows setting width and height */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounds the corners */
+    cursor: pointer; /* Shows a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    margin-top: 30px;
+    margin-right: 20px;
+    word-spacing: 4px;
+}
+
+.my-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.my-button:active {
+    background-color: #00408d; /* Even darker shade when button is clicked */
+}
+
+.content2{
+    display: flex;
+    height: 75vh;
+}
+.left2{
+    margin: 50px 50px 50px 120px;
+    width: 42vw;
+    /* height: 50vh; */
+    /* background-color: blanchedalmond; */
+    /* border: 1px solid black; */
+    /* background-image: url(img/experience-img.jpg);
+    background-size: cover; */
+}
+/* .content2{
+    height: 80vh; 
+} */
+
+.right2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 140px; */
+    /* padding-top: 5vw; */
+    width: 58vw;
+    /* height: 50vh; */ 
+    /* background-color:blanchedalmond; */
+    /* border: 1px solid black; */
+}
+.right2 h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.right2 p{
+    font-size: 1.4rem;
+}
+.btn1 .btn2{
+    display: inline-block;
+    margin: 50px;
+}
+.content3{
+    background-color: aqua;
+}
+.content3 .head{
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    /* font-weight: bolder; */
+    font-size: 1.5rem;
+}
+
+.category{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-rows: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+    /* border: 1px solid blue; */
+}
+/* .category .c-width{
+    width: 120px;
+    border: 1px solid blue;
+    height: 80px; 
+}*/
+.category .c{
+    height: 100px;;
+}
+.category p{
+    padding-top: 20px;
+    /* border: 1px solid brown; */
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content4 .about-content{
+    text-align: center;
+}
+.content4 .about-content h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 20px;
+
+}
+.content4 .about-content p{
+    padding: 5px 30px;
+    font-family: sans-serif;
+    
+    font-size: 1.5rem;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+.content5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content5-head{
+    margin: 20px 0px 10px 0px;
+    font-size: 2rem;
+    margin-bottom: 22px;
+    font-family: sans-serif, Verdana, Geneva, Tahoma ;
+    /* text-align: center; */
+}
+.content5-left p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 8px 0px;
+    color: maroon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content5-left{
+    margin: 40px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    background-color: rgb(22, 13, 13);
+}
+.footer1{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 80px;
+}
+.footer1 img{
+    width: 30px;
+    margin-top: 50px;
+}
+/* .footer1 .logo{
+
+} */
+.footer1 .logo img{
+    width: 70px;
+    margin-left: 50px;
+    float: left;
+    
+}
+.footer1 .logo h2{
+    color: white;
+    font-size: 2.5rem;
+    display: inline-block; 
+    margin-top: 52px;
+    
+    
+}
+.socialmeadiapages img{
+    margin-right: 50px;
+    cursor: pointer;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.footer2{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.usefulLink li{
+    list-style: none;
+}
+.footer2 h2{
+    padding-bottom: 20px;
+}
+.footer2 li{
+    padding-bottom: 8px;
+}
+.footer2 p{
+    line-height: 22px;
+}
+input[type="email"]{
+    font-size: 20px;
+    padding: 8px;
+    width: 230px;
+    margin-bottom: 10px;   
+}
+.newsletter button{
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+}
+
+.mybtn:hover{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: black ;
+}
+
+.mybtn:active{
+    background-color: rgb(73, 48, 48);
+    /* transition: background-color 0.6s ease; */
+}
+.footer3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.footer3 img{
+    width: 25px;
+}
+.location, .mail, .call{
+    margin: 50px 150px 50px 0px;
+    
+}
+.footer3 div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
